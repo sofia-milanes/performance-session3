@@ -1,0 +1,23 @@
+{
+  "name": "performance-session3",
+  "version": "1.0.0",
+  "description": "Performance Assignment Session3",
+  "main": "index.js",
+  "scripts": {
+    "test": "set TOKEN=e9aab85edc7442d58c59b8060619a99762c467ca && artillery run --output results/report.json performance.yml && artillery report --output results/report.html results/report.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofia-milanes/performance-session3.git"
+  },
+  "author": "Sofia Milanes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofia-milanes/performance-session3/issues"
+  },
+  "homepage": "https://github.com/sofia-milanes/performance-session3#readme",
+  "dependencies": {
+    "artillery": "^1.6.2",
+    "faker": "^5.4.0"
+  }
+}

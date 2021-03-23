@@ -1,0 +1,2 @@
+-  Command to execute tests automatically:
+npm run test
